@@ -141,12 +141,12 @@ li a:focus{
 /* Step 5: Write selector/rule property to add the background image to the 
 first div in the grid  and place it in the grid. */
 .overview:first-child{
-  background-image: url('/images/header.jpg');
+  background-image: url('../images/header.jpg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  grid-column: 1 / 4;
+  grid-column: 1 / -1;
   height: 400px;
 }
 
